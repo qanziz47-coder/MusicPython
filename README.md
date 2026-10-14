@@ -1,47 +1,92 @@
-MusicPython 🎵
-> MusicPython adalah proyek berbasis Python yang dirancang untuk memutar dan menampilkan lagu berjudul "Soulsoup" karya Official Hige Dandism.
+# 🎵 MusicPython
 
-Proyek ini mendemonstrasikan bagaimana menggabungkan logika pemrograman Python dengan aset multimedia (audio, lirik, gambar, dan font) untuk menciptakan pengalaman pemutaran musik sederhana.
+**MusicPython** adalah proyek berbasis Python yang dirancang untuk memutar dan menampilkan lagu *Soulsoup* karya **Official HIGE DANdism**.
 
-✨ Fitur
-Pemutaran Audio: Memutar file musik "Soulsoup".
+Proyek ini mendemonstrasikan penggunaan Python untuk mengintegrasikan berbagai aset multimedia, seperti audio, gambar sampul, lirik, dan font kustom, guna menciptakan pengalaman pemutaran musik yang sederhana.
 
-Visualisasi: Menampilkan cover art dan teks lirik (sesuai folder covers, lyrics, dan fonts).
+## ✨ Fitur
 
-Manajemen Aset: Terstruktur rapi untuk file musik dan tampilan.
+- 🎧 **Pemutaran Audio** — Memutar lagu *Soulsoup* melalui aplikasi Python.
+- 🖼️ **Tampilan Sampul Lagu** — Menampilkan gambar sampul dari folder `covers/`.
+- 📝 **Tampilan Lirik** — Menyediakan aset lirik yang tersimpan di folder `lyrics/`.
+- 🔤 **Font Kustom** — Mendukung penggunaan font tambahan dari folder `fonts/`.
+- 📁 **Manajemen Aset** — Mengorganisasi file audio dan aset visual dalam struktur direktori yang terpisah.
 
-📂 Struktur Direktori
-Berikut adalah struktur folder dalam proyek ini:
+## 📂 Struktur Direktori
 
-text
+Berikut adalah struktur direktori proyek MusicPython:
+
+```text
 MusicPython/
-├── covers/       # Menyimpan gambar sampul lagu
-├── fonts/        # Menyimpan file font kustom untuk tampilan teks
-├── lyrics/       # Menyimpan file teks lirik lagu
-├── music/        # Menyimpan file audio (.mp3/.wav)
-└── soulsoup.py   # Script utama Python
-🚀 Cara Menjalankan
-Prasyarat
-Pastikan kamu sudah menginstal Python di komputermu. Kamu juga mungkin perlu menginstal library pihak ketiga (tergantung kode di dalam soulsoup.py, misalnya pygame atau playsound).
+├── covers/       # Gambar sampul lagu
+├── fonts/        # Font kustom untuk tampilan teks
+├── lyrics/       # File lirik lagu
+├── music/        # File audio (.mp3/.wav)
+└── soulsoup.py   # Script utama aplikasi
+```
 
-Jika menggunakan library eksternal, install dengan perintah:
+## 🚀 Cara Menjalankan
 
-bash
-pip install pygame  # Contoh jika menggunakan pygame
-Langkah-langkah
-Clone repositori ini:
+### 1. Persyaratan
 
-bash
+Pastikan perangkatmu sudah memiliki:
+
+- Python yang telah terinstal.
+- Git untuk mengunduh repositori.
+- Library tambahan yang dibutuhkan oleh aplikasi.
+
+> **Catatan:** Library yang diperlukan bergantung pada implementasi di dalam `soulsoup.py`. Jika proyek menggunakan Pygame, ikuti langkah instalasi berikut.
+
+### 2. Instalasi Library
+
+Jika aplikasi menggunakan Pygame, jalankan perintah berikut di terminal:
+
+```bash
+pip install pygame
+```
+
+### 3. Unduh Repositori
+
+Kloning repositori dari GitHub:
+
+```bash
 git clone https://github.com/qanziz47-coder/MusicPython.git
+```
+
+Masuk ke direktori proyek:
+
+```bash
 cd MusicPython
-Jalankan script:
+```
 
-bash
+### 4. Jalankan Aplikasi
+
+Jalankan script utama dengan perintah:
+
+```bash
 python soulsoup.py
-🛠️ Teknologi yang Digunakan
-Python (100%)
+```
 
-Library multimedia (sesuaikan dengan yang kamu pakai di kode, misal: pygame, tkinter, atau os)
+Pastikan file audio dan aset pendukung tersedia di direktori yang sesuai sebelum menjalankan aplikasi.
 
-👤 Author
-Fajri Hafz - qanziz47-coder
+## 🛠️ Teknologi yang Digunakan
+
+- **Python** — Bahasa pemrograman utama.
+- **Pygame** — Kandidat library untuk pemutaran audio, jika digunakan dalam kode.
+- **Aset Multimedia** — File audio, gambar, lirik, dan font pendukung.
+
+*Catatan: Teknologi dan library yang tercantum perlu disesuaikan dengan implementasi sebenarnya di dalam kode proyek.*
+
+## 👤 Author
+
+**Fajri Hafz**
+
+GitHub: [@qanziz47-coder](https://github.com/qanziz47-coder)
+
+## 📄 Lisensi
+
+Lisensi proyek belum dicantumkan. Silakan tambahkan informasi lisensi jika proyek ini akan dibagikan atau dikembangkan secara terbuka.
+
+---
+
+Dibuat dengan ❤️ menggunakan Python.
